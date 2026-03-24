@@ -60,14 +60,19 @@ body {
   padding-bottom: 10px;
 }
 
-.project h3 a {
+.project h3 a, .thesis-card h3 a {
   color: #00bfff;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.project h3 a:hover {
   text-decoration: underline;
+  font-weight: 700;
+  transition: color 0.2s, background 0.2s;
+}
+.project h3 a:focus, .project h3 a:hover,
+.thesis-card h3 a:focus, .thesis-card h3 a:hover {
+  color: #fff;
+  background: #00bfff;
+  text-decoration: underline;
+  border-radius: 4px;
+  outline: 2px solid #fff;
 }
 
 .project p {
@@ -121,4 +126,54 @@ body {
   .main {
     padding: 20px;
   }
+}
+
+.lang-switch {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.lang-switch button {
+  background: #23272f;
+  color: #00bfff;
+  border: none;
+  padding: 8px 16px;
+  margin-left: 8px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.lang-switch button:hover {
+  background: #00bfff;
+  color: #121212;
+}
+.project, .thesis-card {
+  background: #23272f;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  padding: 24px;
+  margin-bottom: 24px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.project:hover, .thesis-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+
+.project a,
+.thesis-card a,
+.demo a {
+  color: #00bfff;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.project a:hover,
+.thesis-card a:hover,
+.demo a:hover {
+  color: #fff;
+  background: #00bfff;
+  border-radius: 4px;
+  text-decoration: underline;
 }

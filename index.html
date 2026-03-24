@@ -3,35 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>P-P-programer | Portafolio</title>
+  <meta name="description" content="S.U.N. Sistema Universal de Notas - Proyecto destacado de P-P-programer. Software escolar con Laravel, PHP, MySQL, Node.js.">
+  <meta name="keywords" content="tesis, sistema de notas, laravel, php, node.js, mysql, proyecto, escolar, backend, devops">
+  <title id="page-title">S.U.N. Sistema Universal de Notas</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+  <div class="lang-switch">
+    <button id="lang-es">ES</button>
+    <button id="lang-en">EN</button>
+  </div>
   <div class="container">
     <header class="header">
-      <img src="img/logo.png" alt="Logo" class="logo">
+      <img src="img/Yoformal.jpeg" alt="Foto de perfil" class="logo">
       <h1>P-P-programer</h1>
-      <p>Estudiante de Sistemas | Backend Developer | Laravel Enthusiast</p>
+      <p id="subtitle">Estudiante de Sistemas | Backend Developer | Laravel Enthusiast</p>
     </header>
 
     <main class="main">
       <section class="bio">
-        <h2>Sobre mí</h2>
-        <p>Soy un desarrollador web enfocado en Laravel, PHP y backend. Me gusta construir sistemas escalables, seguros y con buenas prácticas. Actualmente estoy aprendiendo React, CI/CD y AWS.</p>
+        <h2 id="bio-title">Sobre mí</h2>
+        <p id="welcome-msg">¡Bienvenido a mi portafolio profesional!</p>
+        <p id="bio-text">Desarrollador web enfocado en backend (Laravel, PHP). Apasionado por sistemas escalables y buenas prácticas. Aprendiendo React, CI/CD y AWS.</p>
       </section>
 
       <section class="thesis-highlight">
-        <h2>🌟 Proyecto Destacado: S.U.N. Sistema Universal de Notas</h2>
+        <h2 id="thesis-title">🌟 Proyecto Destacado: S.U.N. Sistema Universal de Notas</h2>
         <div class="thesis-card">
-          <h3><a href="tesis.html">S.U.N. Sistema Universal de Notas</a></h3>
-          <p>Software para colegios con gestión de notas, matrículas y asistencias. 68% Blade, 35+ tablas, auditoría, roles, gráficas y chatbot. Desarrollado con Laravel, Vite, Node.js y MySQL.</p>
-          <p>👉 <a href="https://github.com/P-P-programer/Sistema-Universal-de-Notas-S.U.N" target="_blank">Ver repositorio</a></p>
+          <h3><a href="tesis.html" id="thesis-link">S.U.N. Sistema Universal de Notas</a></h3>
+          <p id="thesis-desc">Software para colegios con gestión de notas, matrículas y asistencias. 68% Blade, 35+ tablas, auditoría, roles, gráficas y chatbot. Desarrollado con Laravel, Vite, Node.js y MySQL.</p>
+          <p>👉 <a href="https://github.com/P-P-programer/Sistema-Universal-de-Notas-S.U.N" target="_blank" id="thesis-repo">Ver repositorio</a></p>
         </div>
       </section>
 
       <section class="projects">
-        <h2>Proyectos destacados</h2>
+        <h2 id="projects-title">Proyectos destacados</h2>
         <div class="project">
           <h3><a href="https://your-face-ia.site/" target="_blank">Your-Face-IA</a></h3>
           <p>Software de reconocimiento facial con IA para ESP32. Usa Laravel, Node.js, AJAX y CI/CD con GitHub Actions. Incluye autenticación segura, auditoría y PWA. En producción.</p>
@@ -51,7 +59,7 @@
       </section>
 
       <section class="skills">
-        <h2>Tecnologías que uso</h2>
+        <h2 id="skills-title">Tecnologías que uso</h2>
         <div class="skills-list">
           <span>Laravel</span>
           <span>PHP</span>
@@ -64,19 +72,27 @@
         </div>
       </section>
 
-      <section class="contact">
-        <h2>Contacto</h2>
+      <section class="devops">
+        <h2 id="devops-title">DevOps & Cloud</h2>
         <ul>
-          <li><a href="https://www.linkedin.com/in/andr%C3%A9s-felipe-mendoza-palma-957564376" target="_blank">LinkedIn</a></li>
-          <li><a href="mailto:Felipemendoza3247@gmail.com">Email</a></li>
-          <li><a href="https://www.facebook.com/share/14WLHieEckT/" target="_blank">Facebook</a></li>
+          <li id="devops-cicd"><strong>CI/CD:</strong> Experiencia real con GitHub Actions, despliegue automático en Hostinger vía SSH y manejo de secrets (Your-Face-IA).</li>
+          <li id="devops-docker"><strong>Docker & AWS:</strong> En proceso de aprendizaje y práctica.</li>
+          <li id="devops-git"><strong>Git & GitHub:</strong> Uso constante de buenas prácticas y control de versiones en todos los proyectos.</li>
+        </ul>
+      </section>
+
+      <section class="contact">
+        <h2 id="contact-title">Contacto</h2>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/andr%C3%A9s-felipe-mendoza-palma-957564376" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          <li><a href="mailto:mendoza.felipe.dev@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
         </ul>
       </section>
     </main>
-
     <footer class="footer">
       <p>© 2026 P-P-programer. Todos los derechos reservados.</p>
     </footer>
   </div>
+  <script src="js/script.js"></script>
 </body>
 </html>

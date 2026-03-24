@@ -3,42 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>S.U.N. Sistema Universal de Notas</title>
+  <meta name="description" content="S.U.N. Sistema Universal de Notas - Proyecto destacado de P-P-programer. Software escolar con Laravel, PHP, MySQL, Node.js.">
+  <meta name="keywords" content="tesis, sistema de notas, laravel, php, node.js, mysql, proyecto, escolar, backend, devops">
+  <title id="page-title">S.U.N. Sistema Universal de Notas</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+  <div class="lang-switch">
+    <button id="lang-es">ES</button>
+    <button id="lang-en">EN</button>
+  </div>
   <div class="container">
     <header class="header">
-      <img src="img/logo.png" alt="Logo" class="logo">
-      <h1>S.U.N. Sistema Universal de Notas</h1>
-      <p>Software para colegios — Laravel, PHP, MySQL, AJAX, Vite, Node.js</p>
+      <img src="img/Yoformal.jpeg" alt="Logo" class="logo">
+      <h1 id="main-title">S.U.N. Sistema Universal de Notas</h1>
+      <p id="main-subtitle">Software para colegios — Laravel, PHP, MySQL, AJAX, Vite, Node.js</p>
     </header>
 
     <main class="main">
+      <section class="thesis-highlight">
+        <h2 id="thesis-title"><i class="fas fa-medal" style="color:#FFD700"></i> <span id="thesis-title-text">Proyecto Destacado</span></h2>
+        <div class="thesis-card">
+          <h3 id="project-name">S.U.N. Sistema Universal de Notas</h3>
+          <p id="project-desc">Software para colegios con gestión de notas, matrículas y asistencias. 68% Blade, 35+ tablas, auditoría, roles, gráficas y chatbot. Desarrollado con Laravel, Vite, Node.js y MySQL.</p>
+          <p>👉 <a href="https://github.com/P-P-programer/Sistema-Universal-de-Notas-S.U.N" target="_blank" id="repo-link">Ver repositorio</a></p>
+        </div>
+      </section>
+
       <section class="overview">
-        <h2>Resumen</h2>
-        <p>Desarrollé un sistema integral para un colegio que necesitaba automatizar el registro y control de notas, matrículas y asistencias. El software permite gestionar roles como: Secretario, Rectoría, Superadmin, Secretaria-Aux, Alumno y Docente.</p>
+        <h2 id="overview-title">Resumen</h2>
+        <p id="overview-text">Desarrollé un sistema integral para un colegio que necesitaba automatizar el registro y control de notas, matrículas y asistencias. El software permite gestionar roles como: Secretario, Rectoría, Superadmin, Secretaria-Aux, Alumno y Docente.</p>
       </section>
 
       <section class="features">
-        <h2>Características principales</h2>
-        <ul>
-          <li>✅ Gestión de roles con permisos diferenciados</li>
-          <li>✅ Módulo de asignación de profesores a materias y cursos</li>
-          <li>✅ Subida de notas por periodos con activación controlada</li>
-          <li>✅ Gráficas interactivas para alumnos (visualización de progreso)</li>
-          <li>✅ Chatbot integrado (API externa)</li>
-          <li>✅ Auditoría media de cambios (quién, cuándo, qué modificó)</li>
-          <li>✅ Validación de correo y notificaciones</li>
-          <li>✅ 35+ tablas relacionadas con estructura MVC y POO</li>
-          <li>✅ 68% Blade — para mantener consistencia en la interfaz y evitar caídas del frontend</li>
+        <h2 id="features-title">Características principales</h2>
+        <ul id="features-list">
+          <li>Gestión de roles con permisos diferenciados</li>
+          <li>Módulo de asignación de profesores a materias y cursos</li>
+          <li>Subida de notas por periodos con activación controlada</li>
+          <li>Gráficas interactivas para alumnos (visualización de progreso)</li>
+          <li>Chatbot integrado (API externa)</li>
+          <li>Auditoría media de cambios (quién, cuándo, qué modificó)</li>
+          <li>Validación de correo y notificaciones</li>
+          <li>35+ tablas relacionadas con estructura MVC y POO</li>
+          <li>68% Blade — para mantener consistencia en la interfaz y evitar caídas del frontend</li>
         </ul>
       </section>
 
       <section class="tech">
-        <h2>Tecnologías utilizadas</h2>
-        <div class="skills-list">
+        <h2 id="tech-title">Tecnologías utilizadas</h2>
+        <div class="skills-list" id="tech-list">
           <span>Laravel</span>
           <span>PHP</span>
           <span>MySQL</span>
@@ -53,12 +69,129 @@
       </section>
 
       <section class="demo">
-        <h2>¿Cómo funciona?</h2>
-        <p>El sistema permite a los docentes subir notas, a los secretarios gestionar matrículas, a la rectoría ver reportes, y a los alumnos visualizar su progreso con gráficas. Todo con una interfaz responsive y segura.</p>
-        <p>👉 <a href="https://github.com/P-P-programer/Sistema-Universal-de-Notas-S.U.N" target="_blank">Ver repositorio en GitHub</a></p>
+        <h2 id="demo-title">¿Cómo funciona?</h2>
+        <p id="demo-text">El sistema permite a los docentes subir notas, a los secretarios gestionar matrículas, a la rectoría ver reportes, y a los alumnos visualizar su progreso con gráficas. Todo con una interfaz responsive y segura.</p>
+        <p>👉 <a href="https://github.com/P-P-programer/Sistema-Universal-de-Notas-S.U.N" target="_blank" id="demo-repo-link">Ver repositorio en GitHub</a></p>
       </section>
 
       <section class="contact">
-        <h2>Contacto</h2>
+        <h2 id="contact-title">Contacto</h2>
         <ul>
-          <li><a href="https://www.linkedin.com/in/andr%C3%A9s-f
+          <li><a href="https://www.linkedin.com/in/andr%C3%A9s-felipe-mendoza-palma-957564376" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          <li><a href="mailto:mendoza.felipe.dev@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>© 2026 P-P-programer. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+  <script>
+    // Traducción dinámica
+    const thesisTexts = {
+      es: {
+        pageTitle: "S.U.N. Sistema Universal de Notas",
+        mainTitle: "S.U.N. Sistema Universal de Notas",
+        mainSubtitle: "Software para colegios — Laravel, PHP, MySQL, AJAX, Vite, Node.js",
+        thesisTitle: "Proyecto Destacado",
+        projectName: "S.U.N. Sistema Universal de Notas",
+        projectDesc: "Software para colegios con gestión de notas, matrículas y asistencias. 68% Blade, 35+ tablas, auditoría, roles, gráficas y chatbot. Desarrollado con Laravel, Vite, Node.js y MySQL.",
+        repoLink: "Ver repositorio",
+        overviewTitle: "Resumen",
+        overviewText: "Desarrollé un sistema integral para un colegio que necesitaba automatizar el registro y control de notas, matrículas y asistencias. El software permite gestionar roles como: Secretario, Rectoría, Superadmin, Secretaria-Aux, Alumno y Docente.",
+        featuresTitle: "Características principales",
+        featuresList: [
+          "Gestión de roles con permisos diferenciados",
+          "Módulo de asignación de profesores a materias y cursos",
+          "Subida de notas por periodos con activación controlada",
+          "Gráficas interactivas para alumnos (visualización de progreso)",
+          "Chatbot integrado (API externa)",
+          "Auditoría media de cambios (quién, cuándo, qué modificó)",
+          "Validación de correo y notificaciones",
+          "35+ tablas relacionadas con estructura MVC y POO",
+          "68% Blade — para mantener consistencia en la interfaz y evitar caídas del frontend"
+        ],
+        techTitle: "Tecnologías utilizadas",
+        techList: [
+          "Laravel", "PHP", "MySQL", "Blade", "JavaScript", "Vite", "Node.js", "AJAX", "Auth", "Git"
+        ],
+        demoTitle: "¿Cómo funciona?",
+        demoText: "El sistema permite a los docentes subir notas, a los secretarios gestionar matrículas, a la rectoría ver reportes, y a los alumnos visualizar su progreso con gráficas. Todo con una interfaz responsive y segura.",
+        demoRepoLink: "Ver repositorio en GitHub",
+        contactTitle: "Contacto"
+      },
+      en: {
+        pageTitle: "S.U.N. Universal Grading System",
+        mainTitle: "S.U.N. Universal Grading System",
+        mainSubtitle: "School software — Laravel, PHP, MySQL, AJAX, Vite, Node.js",
+        thesisTitle: "Featured Project",
+        projectName: "S.U.N. Universal Grading System",
+        projectDesc: "Software for schools with grade, enrollment, and attendance management. 68% Blade, 35+ tables, auditing, roles, charts, and chatbot. Developed with Laravel, Vite, Node.js, and MySQL.",
+        repoLink: "View repository",
+        overviewTitle: "Overview",
+        overviewText: "I developed a comprehensive system for a school that needed to automate the registration and control of grades, enrollments, and attendance. The software allows management of roles such as Secretary, Principal, Superadmin, Assistant Secretary, Student, and Teacher.",
+        featuresTitle: "Main Features",
+        featuresList: [
+          "Role management with differentiated permissions",
+          "Module for assigning teachers to subjects and courses",
+          "Grade upload by periods with controlled activation",
+          "Interactive charts for students (progress visualization)",
+          "Integrated chatbot (external API)",
+          "Change audit trail (who, when, what was modified)",
+          "Email validation and notifications",
+          "35+ related tables with MVC and OOP structure",
+          "68% Blade — to maintain interface consistency and avoid frontend crashes"
+        ],
+        techTitle: "Technologies Used",
+        techList: [
+          "Laravel", "PHP", "MySQL", "Blade", "JavaScript", "Vite", "Node.js", "AJAX", "Auth", "Git"
+        ],
+        demoTitle: "How does it work?",
+        demoText: "The system allows teachers to upload grades, secretaries to manage enrollments, principals to view reports, and students to visualize their progress with charts. All with a responsive and secure interface.",
+        demoRepoLink: "View repository on GitHub",
+        contactTitle: "Contact"
+      }
+    };
+
+    function setThesisLang(lang) {
+      document.title = thesisTexts[lang].pageTitle;
+      document.getElementById('page-title').textContent = thesisTexts[lang].pageTitle;
+      document.getElementById('main-title').textContent = thesisTexts[lang].mainTitle;
+      document.getElementById('main-subtitle').textContent = thesisTexts[lang].mainSubtitle;
+      document.getElementById('thesis-title-text').textContent = thesisTexts[lang].thesisTitle;
+      document.getElementById('project-name').textContent = thesisTexts[lang].projectName;
+      document.getElementById('project-desc').textContent = thesisTexts[lang].projectDesc;
+      document.getElementById('repo-link').textContent = thesisTexts[lang].repoLink;
+      document.getElementById('overview-title').textContent = thesisTexts[lang].overviewTitle;
+      document.getElementById('overview-text').textContent = thesisTexts[lang].overviewText;
+      document.getElementById('features-title').textContent = thesisTexts[lang].featuresTitle;
+      // Features list
+      const featuresList = document.getElementById('features-list');
+      featuresList.innerHTML = '';
+      thesisTexts[lang].featuresList.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item;
+        featuresList.appendChild(li);
+      });
+      document.getElementById('tech-title').textContent = thesisTexts[lang].techTitle;
+      // Tech list
+      const techList = document.getElementById('tech-list');
+      techList.innerHTML = '';
+      thesisTexts[lang].techList.forEach(item => {
+        const span = document.createElement('span');
+        span.textContent = item;
+        techList.appendChild(span);
+      });
+      document.getElementById('demo-title').textContent = thesisTexts[lang].demoTitle;
+      document.getElementById('demo-text').textContent = thesisTexts[lang].demoText;
+      document.getElementById('demo-repo-link').textContent = thesisTexts[lang].demoRepoLink;
+      document.getElementById('contact-title').textContent = thesisTexts[lang].contactTitle;
+    }
+
+    document.getElementById('lang-en').onclick = function() { setThesisLang('en'); };
+    document.getElementById('lang-es').onclick = function() { setThesisLang('es'); };
+    // Inicializa en español
+    setThesisLang('es');
+  </script>
+</body>
+</html>
