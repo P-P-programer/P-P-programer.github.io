@@ -35,4 +35,4 @@ P-P-programer.github.io/ ├── index.html → Página principal ├── te
 
 ---
 
-> *“Aprendo con prueba y error, y con IA como guía. Me gusta construir, no solo escribir código.”*
+> *“Aprendo con prueba y error, y con IA como guía. Me gusta construir, no solo escribir código, trabajo aplicando el pair programing.”*
