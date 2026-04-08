@@ -30,7 +30,7 @@ P-P-programer.github.io/ ├── index.html → Página principal ├── te
 ## 📬 Contacto
 
 - [LinkedIn](https://www.linkedin.com/in/andr%C3%A9s-felipe-mendoza-palma-957564376)
-- [Email](mailto:Felipemendoza3247@gmail.com)
+- [Email](mailto:mendoza.felipe.dev.com)
 - [Facebook](https://www.facebook.com/share/14WLHieEckT/)
 
 ---
