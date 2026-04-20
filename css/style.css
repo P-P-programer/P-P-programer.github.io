@@ -48,16 +48,27 @@ body {
   margin-bottom: 30px;
 }
 
-.bio, .projects, .thesis, .skills, .contact {
+.bio, .projects, .thesis, .thesis-highlight, .skills, .contact, .devops, .overview, .features, .tech, .demo {
   margin-bottom: 40px;
 }
 
-.bio h2, .projects h2, .thesis h2, .skills h2, .contact h2 {
+.bio h2, .projects h2, .thesis h2, .thesis-highlight h2, .skills h2, .contact h2, .devops h2, .overview h2, .features h2, .tech h2, .demo h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
   color: #ffffff;
   border-bottom: 2px solid #ffffff;
   padding-bottom: 10px;
+}
+
+.section-title-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-title-with-icon i {
+  color: #00bfff;
+  font-size: 1.3rem;
 }
 
 .project h3 a, .thesis-card h3 a {
@@ -72,7 +83,6 @@ body {
   background: #00bfff;
   text-decoration: underline;
   border-radius: 4px;
-  outline: 2px solid #fff;
 }
 
 .project p {
